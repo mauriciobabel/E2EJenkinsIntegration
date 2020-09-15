@@ -11,7 +11,7 @@ public class TC_001 {
 	@Test
 	public void testcase1() {
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 	}
 	
